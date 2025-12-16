@@ -97,7 +97,7 @@ gallery.addEventListener("click", ev => {
         `)
     instance.show();
     // console.log(ev.target);
-    // console.log(ev.target.dataset.source);
+    console.log(ev.target.dataset.source);
 });
 
 console.log(basicLightbox);
