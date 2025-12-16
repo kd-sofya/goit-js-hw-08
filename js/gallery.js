@@ -93,7 +93,7 @@ gallery.addEventListener("click", ev => {
 
     const clickModalWind = ev.target.dataset.source;
     const instance = basicLightbox.create(`
-        <img src = "${clickModalWind}" width = "500"
+        <img src = "${clickModalWind}" width = "500"/>
         `)
     instance.show();
     // console.log(ev.target);
